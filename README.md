@@ -1,4 +1,4 @@
-# Improve-Windows-11
+# Improve Windows 11 Personal Guide
 
 This guide is intended to describe my personal process for improving Windows 11 to my liking. Not every step is required or "everyone needs to do this!". You can remove a lot of the telemetry and bloat from Windows just by running `winutil` and running several tweaks. But I always prefer to just re-install Windows fresh every so often. Here's every step in that process as of August 2024 :)
 
@@ -11,6 +11,10 @@ This guide is intended to describe my personal process for improving Windows 11 
 ## Back-up before making major changes
 
 Heed my warning. Always backup your system just in case something goes horribly wrong.
+
+Read whatever links I provide so you can get a good understanding of what is happening to the system.
+
+I am not liable for anything that may go wrong here. Proceed with caution.
 
 ## Debloating Windows ISO
 
@@ -63,13 +67,13 @@ This section will cover running `winutil` and disabling a lot of the telemetry, 
 
 > **_Note: Everytime you run Windows update and restart, you may have to re-enable these tweaks._**
 
-### 1. Run `winutil`. [See section above for how.](#1-run-winutil)
-### 2. Go to the `Tweaks` tab.
-### 3. Enable the Tweaks you would like. This is what I typically run and have enabled:
+1. Run `winutil`. [See section above for how.](#1-run-winutil)
+2. Go to the `Tweaks` tab.
+3. Enable the Tweaks you would like. This is what I typically run and have enabled:
 ![](winutiltweaks.png)
-### 4. Click `Run Tweaks`. Let this part finish.
-### 5. Click `Run OO Shutup 10`.
-### 6. Go to `Actions` and click `Apply only recommended settings`
+4. Click `Run Tweaks`. Let this part finish.
+5. Click `Run OO Shutup 10`.
+6. Go to `Actions` and click `Apply only recommended settings`
 ![](ooshutup10.png)
 
 
@@ -77,7 +81,28 @@ You should now be running a much improved Windows 11 install, with most of the t
 
 ## Customizing Windows 11
 
-TBD :)
+Any programs I install here are installed via `winutil`. But I will also provide links.
+
+### MacOS-like Spotlight Search
+
+![](spotlight.png)
+
+Hate Windows Search? Me too. This is how you get MacOS-like Spotlight Search functionality on Windows. The steps here will download and install, AutoHotKey, Flow Launcher, and setup a script to always launch Flow Launcher instead of Windows Search.
+
+1. Download and install [AutoHotKey](https://www.autohotkey.com/) 
+2. Create a new script with the following [code](UseFlow.ahk). This code was not written by me, code is from this [Reddit post](https://old.reddit.com/r/FlowLauncher/comments/110uc4t/windows_key_to_open_flow_with_autohotkey_script/).
+3. Compile this script to an exe.
+4. Copy the shortcut of the compiled .exe into `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup`
+5. Now download and install [Flow Launcher](https://www.flowlauncher.com/).
+6. When setting the main key for Flow Launcher, make sure to hit the Windows key again. It should see `Left Alt + F24` instead of the Windows key. The reason we use `Left Alt + F24` is because the launcher doesn't allow the Windows key to be remapped.
+
+Now Flow should be referenced for search instead of Windows search. If you have the default Windows 11 taskbar, it may reference Windows search instead.
+
+### Modify Taskbar
+
+To be written...
+
+![](taskbar.png)
 
 ## Final Result after each step:
 

@@ -79,3 +79,6 @@ You should now be running a much improved Windows 11 install, with most of the t
 
 TBD :)
 
+## Final Result after each step:
+
+![](windows_setup.png)

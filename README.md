@@ -24,8 +24,16 @@ This guide is intended to describe my personal process for improving Windows 11 
       START[Where do I start?]-->INSTALL["Do you need to install Windows?"]
       INSTALL-->YES-INSTALL["Yes I would like to re-install Windows."]
       INSTALL-->NO-INSTALL["No I don't want to."]
-      YES-INSTALL-->ISO["[Debloating Windows ISO](#debloating-windows-iso)"]
-      NO-INSTALL-->IMPROVE["[Improving Windows 11](#improving-windows-11)"]
+      YES-INSTALL-->ISO["<a href="#debloating-windows-iso">Debloating Windows ISO</a>"]
+      ISO-->IMPROVE
+      NO-INSTALL-->IMPROVE["<a href="#improving-windows-11">Improving Windows 11</a>"]
+      IMPROVE-->CUSTOMIZE["<a href="#customizing-windows-11">Customizing Windows 11</a>"]
+      CUSTOMIZE-->SEARCH["<a href="#macos-like-spotlight-search">MacOS-like Spotlight Search</a>"]
+      CUSTOMIZE-->TASKBAR["<a href="#modify-taskbar">Modify Taskbar</a>"]
+
+      ISO-->FYI["Make sure you read these just in case you have issues."]
+      FYI-->XBOX["<a href="#xbox-and-minecraft-launcher-not-working">Xbox/Minecraft not working</a>"]
+      FYI-->JAVA["<a href="#java-installation">Java not installing properly.</a>"]
 ```
 
 ## Debloating Windows ISO

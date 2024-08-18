@@ -17,6 +17,13 @@ This guide is intended to describe my personal process for improving Windows 11 
 
 - I am not liable for anything that may go wrong here. Do not expect me to provide support. This is a guide I am writing for myself for future reference.
 
+## Ok great! Where do I start?
+
+```mermaid
+   graph TD;
+      "Where do I start?"-->"Do you want to re-install Windows?"
+```
+
 ## Debloating Windows ISO
 
 > **_Note: This is not required if you want to debloat Windows. Only do this if you're going to (re-)install Windows anyways._**

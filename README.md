@@ -21,8 +21,9 @@ This guide is intended to describe my personal process for improving Windows 11 
 
 ```mermaid
    graph TD;
-      START-->INSTALL
-      START-->NO-INSTALL
+      START[Where do I start?]-->INSTALL["Do you need to install Windows?"]
+      INSTALL-->YES-INSTALL["Yes I would like to re-install Windows."]
+      INSTALL-->NO-INSTALL["No I don't want to."]
 ```
 
 ## Debloating Windows ISO

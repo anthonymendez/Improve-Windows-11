@@ -64,6 +64,8 @@ Self-explanatory. Nothing special needs to be down here.
 
 ### 5. Run `winutil` again and install your preferred browser of choice.
 
+> **_Note: You may have to install Microsoft Edge even if you don't use it. I was having issues with the Xbox and the Minecraft launcher signing in._**
+
 Check the box of the browser you'd like. Click `Install/Upgrade Selected` and the tool should begin the download and installation process for you.
 
 ![](images/browsers.png)

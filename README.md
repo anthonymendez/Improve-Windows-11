@@ -24,6 +24,8 @@ This guide is intended to describe my personal process for improving Windows 11 
       START[Where do I start?]-->INSTALL["Do you need to install Windows?"]
       INSTALL-->YES-INSTALL["Yes I would like to re-install Windows."]
       INSTALL-->NO-INSTALL["No I don't want to."]
+      YES-INSTALL-->ISO["[Debloating Windows ISO](#debloating-windows-iso)"]
+      NO-INSTALL-->IMPROVE["[Improving Windows 11](#improving-windows-11)"]
 ```
 
 ## Debloating Windows ISO

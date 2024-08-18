@@ -74,6 +74,20 @@ Check the box of the browser you'd like. Click `Install/Upgrade Selected` and th
 
 You can use `winutil` for this but I will leave that choice up to you.
 
+### Some issues you may run into...
+
+#### Xbox and Minecraft Launcher not working
+
+You may have to install Microsoft Edge in case the Xbox and Minecraft apps aren't working. Microsoft bundles Edge was some components that are required for these 2 apps.
+
+After re-installing Edge, and running `System Corruption Scan` from `winutil`, this resolved my issues.
+
+![](images/systemcorruptionscan.png)
+
+#### Java Installation
+
+For some reason the Java offline installer didn't work properly for me. What I had to do was delete `C:\Program Files\Java` and use the online installer instead.
+
 ## Improving Windows 11
 
 This section will cover running `winutil` and disabling a lot of the telemetry, removing some programs, and changing some of Windows settings and behavior.

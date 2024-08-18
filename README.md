@@ -49,7 +49,7 @@ A lot of this process requires using [@ChrisTitusTech](https://github.com/ChrisT
 6. Select the Windows ISO you downloaded. It will take sometime for it load the ISO.
 7. Select the version you want (I pick Windows 11 Pro).
 8. Select `Import drivers from current system`. This is helpful since you won't have to reinstall your drivers from the internet.
-   ![](winutilmicrowinselect.png)
+   ![](images/winutilmicrowinselect.png)
 9. `Start the process`.
 
 After this, the tool should begin the process of the creating the modified ISO.
@@ -66,7 +66,7 @@ Self-explanatory. Nothing special needs to be down here.
 
 Check the box of the browser you'd like. Click `Install/Upgrade Selected` and the tool should begin the download and installation process for you.
 
-![](browsers.png)
+![](images/browsers.png)
 
 ### 6. Install your programs again 😄
 
@@ -81,11 +81,11 @@ This section will cover running `winutil` and disabling a lot of the telemetry, 
 1. Run `winutil`. [See section above for how.](#1-run-winutil)
 2. Go to the `Tweaks` tab.
 3. Enable the Tweaks you would like. This is what I typically run and have enabled:
-   ![](winutiltweaks.png)
+   ![](images/winutiltweaks.png)
 4. Click `Run Tweaks`. Let this part finish.
 5. Click `Run OO Shutup 10`.
 6. Go to `Actions` and click `Apply only recommended settings`
-   ![](ooshutup10.png)
+   ![](images/ooshutup10.png)
 
 You should now be running a much improved Windows 11 install, with most of the telemetry disabled, no Bing search in the startment, and stuff like Copilot and OneDrive completely disabled or uninstalled.
 
@@ -95,7 +95,7 @@ Any programs I install here are installed via `winutil`. But I will also provide
 
 ### MacOS-like Spotlight Search
 
-![](spotlight.png)
+![](images/spotlight.png)
 
 Hate Windows Search? Me too. This is how you get MacOS-like Spotlight Search functionality on Windows. The steps here will download and install, AutoHotKey, Flow Launcher, and setup a script to always launch Flow Launcher instead of Windows Search.
 
@@ -114,13 +114,13 @@ Something I discovered is that by default, the Flow Launcher doesn't index every
 
 1. Open up settings in Flow Launcher by searching `Setting`.
 2. Open that up and go to `Plugins` > `Explorer`
-   ![](plugins.png)
+   ![](images/plugins.png)
 3. Set `Index Search Engine`, `Content Search Engine`, and `Directory Recursive Search Engine` to `Everything`.
-   ![](everything.png)
+   ![](images/everything.png)
 
 ### Modify Taskbar
 
-![](taskbar.png)
+![](images/taskbar.png)
 
 This next part covers modifying the Windows taskbar to your liking. The main motiviation for this part is aesthetic purposes.
 
@@ -160,4 +160,4 @@ This next part covers modifying the Windows taskbar to your liking. The main mot
 
 ## Final Result after each step:
 
-![](windows_setup.png)
+![](images/windows_setup.png)

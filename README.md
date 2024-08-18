@@ -21,7 +21,7 @@ This guide is intended to describe my personal process for improving Windows 11 
 
 ```mermaid
    graph TD;
-      "Where do I start?"-->"Do you want to re-install Windows?"
+      Where do I start?-->Do you want to re-install Windows?
 ```
 
 ## Debloating Windows ISO

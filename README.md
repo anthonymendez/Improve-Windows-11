@@ -114,15 +114,49 @@ Something I discovered is that by default, the Flow Launcher doesn't index every
 
 1. Open up settings in Flow Launcher by searching `Setting`.
 2. Open that up and go to `Plugins` > `Explorer`
-![](plugins.png)
+   ![](plugins.png)
 3. Set `Index Search Engine`, `Content Search Engine`, and `Directory Recursive Search Engine` to `Everything`.
-![](everything.png)
+   ![](everything.png)
 
 ### Modify Taskbar
 
-To be written...
-
 ![](taskbar.png)
+
+This next part covers modifying the Windows taskbar to your liking. The main motiviation for this part is aesthetic purposes.
+
+1. Download and install [Windhawk](https://windhawk.net/).
+2. Install the following mods:
+   - Taskbar Clock Customization
+   - Taskbar height and icon size
+   - Taskbar Labels for Windows 11
+   - Windows 11 Taskbar Styler
+3. Settings for clock customization. Anything relating to the web is not shown.
+   - Time format: `hh':'mm'`
+   - Date format: `ddd dd MMM yyyy`
+   - Week day format: `dddd`
+   - Top line: Empty
+   - Bottom Line: `%time% | %date%`
+   - Middle line (Windows 10 only): `%weekday%`
+   - Clock width (Windows 10 only): `180`
+   - Clock height (Windows 10 only): `60`
+   - Text spacing: `1`
+4. Settings for Taskbar height and icon size.
+   - Icon size: `16`
+   - Taskbar height: `24`
+   - Taskbar button width: `37`
+5. Settings for Taskbar Labels for Windows 11.
+   - Taskbar item width: `0`
+   - Minimum taskbar item width: `0`
+   - Maximum taskbar item width: `100`
+   - Running indicator style: `Full width`
+   - Progress indicator style: `Full width`
+   - Font size: `11`
+   - Left and right padding size: `12`
+   - Space between icon and label: `14`
+   - Label for a single item: `%name%`
+   - Label for multiple items: `[%amount%] %name%`
+6. Settings for Windows 11 Taskbar Styler.
+    - Theme: `RosePine`
 
 ## Final Result after each step:
 

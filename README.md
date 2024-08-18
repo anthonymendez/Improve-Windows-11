@@ -172,7 +172,7 @@ This next part covers modifying the Windows taskbar to your liking. The main mot
    - Label for a single item: `%name%`
    - Label for multiple items: `[%amount%] %name%`
 6. Settings for Windows 11 Taskbar Styler.
-    - Theme: `RosePine`
+   - Theme: `RosePine`
 
 ## Final Result after each step:
 

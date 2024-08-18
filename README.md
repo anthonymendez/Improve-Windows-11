@@ -17,16 +17,18 @@ This guide is intended to describe my personal process for improving Windows 11 
       START[Where do I start?]-->INSTALL["Do you need to install Windows?"]
       INSTALL-->YES-INSTALL["Yes, I would like to install Windows."]
       INSTALL-->NO-INSTALL["No, I do not want to install Windows (again)."]
-      YES-INSTALL-->ISO["<a href="#debloating-windows-iso">Debloating Windows ISO</a>"]
+      YES-INSTALL-->ISO["Debloating Windows ISO"]
       ISO-->IMPROVE
-      NO-INSTALL-->IMPROVE["<a href="#improving-windows-11">Improving Windows 11</a>"]
-      IMPROVE-->CUSTOMIZE["<a href="#customizing-windows-11">Customizing Windows 11</a>"]
-      CUSTOMIZE-->SEARCH["<a href="#macos-like-spotlight-search">MacOS-like Spotlight Search</a>"]
-      CUSTOMIZE-->TASKBAR["<a href="#modify-taskbar">Modify Taskbar</a>"]
+      NO-INSTALL-->IMPROVE["Improving Windows 11"]
+      IMPROVE-->CUSTOMIZE["Customizing Windows 11"]
+      CUSTOMIZE-->SEARCH["MacOS-like Spotlight Search"]
+      CUSTOMIZE-->TASKBAR["Modify Taskbar"]
+      
+      IMPROVE-->SECURITY["Security Updates"]
 
       ISO-->FYI["Make sure you read these just in case you have issues."]
-      FYI-->XBOX["<a href="#xbox-and-minecraft-launcher-not-working">Xbox/Minecraft not working</a>"]
-      FYI-->JAVA["<a href="#java-installation">Java not installing properly.</a>"]
+      FYI-->XBOX["Xbox/Minecraft not working"]
+      FYI-->JAVA["Java not installing properly."]
 ```
 
 ## Debloating Windows ISO
@@ -116,6 +118,15 @@ This section will cover running `winutil` and disabling a lot of the telemetry, 
    ![](images/ooshutup10.png)
 
 You should now be running a much improved Windows 11 install, with most of the telemetry disabled, no Bing search in the startment, and stuff like Copilot and OneDrive completely disabled or uninstalled.
+
+### Enable Security Updates
+
+This next part is optional but something I recommend. `winutil` also allows you to delay major feature updates for Windows by 2 years, and install security updates 4 days after release. Microsoft likes to push out feature changes to Windows that can sometimes break things. This will drastically reduce the liklihood of that, all the while maintaining security.
+
+1. Run `winutil`.
+2. Go to the `Updates` tab.
+3. Click `Security (Recommended) Settings`.
+![](images/security.png)
 
 ## Customizing Windows 11
 

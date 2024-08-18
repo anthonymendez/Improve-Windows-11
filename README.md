@@ -22,8 +22,8 @@ This guide is intended to describe my personal process for improving Windows 11 
 ```mermaid
    graph TD;
       START[Where do I start?]-->INSTALL["Do you need to install Windows?"]
-      INSTALL-->YES-INSTALL["Yes I would like to re-install Windows."]
-      INSTALL-->NO-INSTALL["No I don't want to."]
+      INSTALL-->YES-INSTALL["Yes, I would like to install Windows."]
+      INSTALL-->NO-INSTALL["No, I do not want to install Windows (again)."]
       YES-INSTALL-->ISO["<a href="#debloating-windows-iso">Debloating Windows ISO</a>"]
       ISO-->IMPROVE
       NO-INSTALL-->IMPROVE["<a href="#improving-windows-11">Improving Windows 11</a>"]

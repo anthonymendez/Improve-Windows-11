@@ -2,13 +2,6 @@
 
 This guide is intended to describe my personal process for improving Windows 11 to my liking. Not every step is required or "everyone needs to do this!". You can remove a lot of the telemetry and bloat from Windows just by running `winutil` and running several tweaks. But I always prefer to just re-install Windows fresh every so often. Here's every step in that process as of August 2024 :)
 
-## Table of Contents
-
-- [Back up!](#back-up-before-making-major-changes)
-- [Debloating Windows ISO](#debloating-windows-iso)
-- [Improving Windows 11](#improving-windows-11)
-- [Customizing Windows 11](#customizing-windows-11)
-
 ## **Warning**
 
 - Always backup your system just in case something goes horribly wrong.

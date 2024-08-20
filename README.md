@@ -10,7 +10,7 @@ This guide is intended to describe my personal process for improving Windows 11 
 
 - I am not liable for anything that may go wrong here. Do not expect me to provide support. This is a guide I am writing for myself for future reference.
 
-## Find an issue in the guide?
+## Find an issue with your install or this guide?
 
 Well I can't guarantee any help. However, if you go through an issue and figure out the solution, feel free to create a new issue or make a pull request with your issue and resolution!
 

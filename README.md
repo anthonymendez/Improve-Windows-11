@@ -173,6 +173,7 @@ This next part covers modifying the Windows taskbar to your liking. The main mot
    - Taskbar height and icon size
    - Taskbar Labels for Windows 11
    - Windows 11 Taskbar Styler
+   - Better Taskbar Autohide
 3. Settings for clock customization. Anything relating to the web is not shown.
    - Time format: `hh':'mm'`
    - Date format: `ddd dd MMM yyyy`

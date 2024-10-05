@@ -35,7 +35,7 @@ Well I can't guarantee any help. However, if you go through an issue and figure 
       FYI-->JAVA["Java not installing properly."]
 ```
 
-## Debloating Windows ISO
+## Debloating Windows ISO _**ONLY RECOMMENDED IF YOU ARE WILLING TO MESS WITH SOME STUFF :)**_
 
 > **_Note: This is not required if you want to debloat Windows. Only do this if you're going to (re-)install Windows anyways._**
 
@@ -161,7 +161,20 @@ Something I discovered is that by default, the Flow Launcher doesn't index every
 3. Set `Index Search Engine`, `Content Search Engine`, and `Directory Recursive Search Engine` to `Everything`.
    ![](images/everything.png)
 
-### Modify Taskbar
+### NEW - Modify Taskbar
+
+This next part covers modifying the Windows taskbar to be a more retro style. I choose this because... well I prefer it. And I want the taskbar up top.
+
+1. Download and install [RetroBar](https://github.com/dremin/RetroBar).
+2. Launch RetroBar by running `retrobar` in the Terminal/Powershell/CMD.
+    - Alternatively, find `retrobar.exe` and run that.
+3. These are the settings I use for RetroBar.
+![{D2ECB53D-AE18-47F5-BF95-1ED94CC2EFF2}](https://github.com/user-attachments/assets/8b70ebc4-8814-4818-b6cc-73ceac3de99a)
+![{0F9C2C3A-3F70-41FD-B515-BEE40718256D}](https://github.com/user-attachments/assets/9232d421-bcc3-49d2-8845-b826c6246576)
+
+### OLD - Modify Taskbar
+
+> **_Note: I no longer use Windhawk. It gave me some issues with anti-cheat in games. I use Retrobar now._**
 
 ![](images/taskbar.png)
 
